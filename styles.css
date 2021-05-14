@@ -1,0 +1,60 @@
+body {
+  background-color: #202124;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+/* Title Section */
+
+.title-section {
+  background-color: #21094e;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* Menu Section */
+
+.menu-section {
+  background-color: #a5e1ad;
+  color: white;
+}
+
+.menu-button {
+  background-color: #a5e1ad;
+  border: none;
+  color: #21094e;
+  font-weight: bold;
+}
+
+.menu-button:hover {
+  background-color: #21094e;
+  color: #a5e1ad;
+}
+
+/* Color Section */
+
+.color-section {
+  background-color: #202124;
+  height: 25em;
+  padding-top: 2rem;
+}
+
+.card-tile {
+  background-color: #202124;
+  border: 20px solid #202124;
+  height: 11.75em;
+  opacity: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Game</title>
+  </head>
+
+  <body>
+
+    <div class="container-fluid title-section">
+      <h4>THE GREAT</h4>
+      <h1>RGB(0, 0, 0)</h1>
+      <h4>GUESSING GAME</h4>
+    </div>
+
+    <div class="container-fluid menu-section">
+      <div class="row">
+        <div class="col-6">
+          <button id="new-colors" class="menu-button">NEW COLORS</button>
+        </div>
+        <div class="col-6">
+          <button id="easy" class="menu-button">EASY</button>
+          <button id="hard" class="menu-button">HARD</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container color-section">
+      <div class="row">
+        <div id="first" class="col-6 col-md-4 card-tile"></div>
+        <div id="second" class="col-6 col-md-4 card-tile"></div>
+        <div id="third" class="col-6 col-md-4 card-tile"></div>
+        <div id="fourth" class="col-6 col-md-4 card-tile"></div>
+        <div id="fifth" class="col-6 col-md-4 card-tile"></div>
+        <div id="sixth" class="col-6 col-md-4 card-tile"></div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
