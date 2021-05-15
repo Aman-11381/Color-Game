@@ -49,6 +49,10 @@ $("#easy").click(function(){
   // changing the number of colors to 3 so that the chosen number is from the first three numbers
   numberOfColors = 3;
 
+  // make easy button the selected button
+  $(this).addClass("selected-button");
+  $("#hard").removeClass("selected-button");
+
   startOver();
 
   //hiding the last three color tiles because the game mode changed to easy
@@ -62,6 +66,10 @@ $("#easy").click(function(){
 $("#hard").click(function(){
   // changing the number of colors back to 6
   numberOfColors = 6;
+
+  // making hard button the selected button
+  $(this).addClass("selected-button");
+  $("#easy").removeClass("selected-button");
 
   startOver();
 
