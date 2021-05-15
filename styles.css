@@ -35,6 +35,11 @@ h4 {
   font-weight: bold;
 }
 
+.selected-button {
+  background-color: #21094e;
+  color: #a5e1ad;
+}
+
 .menu-button:hover {
   background-color: #21094e;
   color: #a5e1ad;
